@@ -15,6 +15,7 @@ This extension implements a toggle between a few selected color schemes color sc
 ```
     URxvt.perl-ext-common:      colorscheme
     URxvt.keysym.Mod4-c:        perl:colorscheme:toggle
+    URxvt.colorscheme.default:  papercolor
 ```
 3. After merging the changes with `xrdb -merge ~/.Xresources` or something similar you can enjoy color switching in a **new** urxvt-terminal by pressing _Super-c_.
 
